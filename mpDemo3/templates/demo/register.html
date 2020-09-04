@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my registration form forms</title>
+</head>
+<body>
+<form method="get" action="/seereg" >
+    {% csrf_token %}
+    {{form.as_p}}
+  <!--  <label >Enter Full Name:</label><br>
+    {{form.rname}}-->
+
+   <!--<label for="mail">Enter mail:</label><br>
+    <input id="mail" type="email" name="" placeholder="Enter Mail"><br><br>
+
+    <label for="pass">Enter Password</label><br>
+    <input id="pass" type="password" name="" value=""><br><br>
+
+
+    <label for="rpass">Re-Enter Password</label><br>
+    <input id="rpass" type="password" name="" value=""><br><br>-->
+
+    <input type="submit" name="abc" value="Register"><br>
+
+</form>
+</body>
+</html>
